@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats Amelia Rahmah!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fdf6f0;
+            color: #4a4a4a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 350px;
+            width: 90%;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .photo-frame {
+            width: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border: 5px solid #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .photo-frame img {
+            width: 100%;
+            display: block;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            color: #d4a373;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .nickname {
+            font-weight: bold;
+            color: #bc6c25;
+            font-style: italic;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #a0a0a0;
+        }
+
+        .heart {
+            color: #e63946;
+            animation: beat 1s infinite alternate;
+            display: inline-block;
+        }
+
+        @keyframes beat {
+            to { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="photo-frame">
+            <img src="https://uploads.onecompiler.io/44jphb2ba/44kjhaax9/IMG-20260417-WA0007.jpg" alt="Amelia Rahmah di Prau">
+        </div>
+
+        <h1>Proud of You! <span class="heart">❤</span></h1>
+        
+        <p>
+            Selamat ya Sayang, <strong>Amelia Rahmah</strong>, sudah berhasil sampai di puncak Gunung Prau!
+        </p>
+        
+        <p>
+            Gak nyangka si <span class="nickname">Bocil</span> satu ini kuat banget nanjaknya. Capeknya terbayar kan sama view-nya?
+        </p>
+
+        <p>
+            Tetap jadi pacarku yang hebat ya. Ditunggu cerita seru lainnya nanti pas kita muncak lagi cill!
+        </p>
+
+        <div class="footer">
+            With love, Your Favorite Person ✨
+        </div>
+    </div>
+
+</body>
+</html>
